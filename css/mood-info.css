@@ -1,0 +1,79 @@
+.transition {
+  cursor: pointer;
+  transition: all 0.24s;
+}
+header {
+  font-weight: 900;
+  font-size: 46px;
+  text-align: center;
+  color: #FFBF7E;
+  padding-top: 68px;
+}
+main .main-img {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 68px auto 32px;
+  cursor: pointer;
+  transition: all 0.24s;
+}
+main .main-img > img {
+  position: absolute;
+  width: 300px;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.24s;
+}
+main .main-img > img.img1 {
+  opacity: 1;
+  z-index: 10;
+}
+main .main-img > img.img2 {
+  opacity: 0;
+  z-index: 11;
+}
+main .main-img:hover > img.img1 {
+  opacity: 0;
+}
+main .main-img:hover > img.img2 {
+  opacity: 1;
+}
+main .main-desc {
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.24s;
+}
+main .main-desc .main-desc-title1 {
+  font-weight: 900;
+  font-size: 30px;
+  color: #D9D9D9;
+  opacity: 0;
+  cursor: pointer;
+  transition: all 0.24s;
+}
+main .main-desc .main-desc-title {
+  font-weight: 900;
+  font-size: 45px;
+  color: #FFBF7E;
+  margin: 12px auto;
+}
+main .main-desc .main-desc-title2 {
+  font-weight: 900;
+  font-size: 16px;
+  color: #D9D9D9;
+  line-height: 24px;
+  opacity: 0;
+  cursor: pointer;
+  transition: all 0.24s;
+}
+main .main-desc:hover .main-desc-title1,
+main .main-desc:hover .main-desc-title2 {
+  opacity: 1;
+}
+.main-img:hover + .main-desc > .main-desc-title1,
+.main-img:hover + .main-desc > .main-desc-title2 {
+  opacity: 1;
+}

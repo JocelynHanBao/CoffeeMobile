@@ -1,0 +1,26 @@
+.transition {
+  cursor: pointer;
+  transition: all 0.24s;
+}
+.cake {
+  width: 246px;
+  margin: 120px auto 48px;
+}
+.title {
+  font-weight: 900;
+  font-size: 30px;
+  text-align: center;
+  color: #FFBF7E;
+  margin: 48px auto;
+}
+.desc {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-weight: 900;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.desc > div {
+  margin-bottom: 12px;
+}

@@ -1,0 +1,47 @@
+.transition {
+  cursor: pointer;
+  transition: all 0.24s;
+}
+header {
+  padding-top: 20px;
+}
+header .font {
+  width: 100%;
+  display: block;
+  font-size: 80px;
+  font-weight: 900;
+  color: #6A4826;
+  margin: 12px auto;
+  text-align: center;
+}
+header .font.active {
+  color: #FFBF7E;
+  cursor: pointer;
+}
+.nav {
+  display: flex;
+  flex-direction: column;
+  margin-top: 36px;
+}
+.nav > a {
+  display: block;
+  width: 100%;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 35px;
+  text-align: center;
+  color: #392007;
+  cursor: pointer;
+  transition: all 0.24s;
+}
+.nav > a > img {
+  width: 22px;
+  opacity: 0;
+  margin: 12px auto;
+}
+.nav > a:hover {
+  color: #FFBF7E;
+}
+.nav > a:hover img {
+  opacity: 1;
+}

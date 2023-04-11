@@ -1,0 +1,19 @@
+.transition {
+  cursor: pointer;
+  transition: all 0.24s;
+}
+header {
+  font-weight: 900;
+  font-size: 46px;
+  text-align: center;
+  color: #FFBF7E;
+  padding-top: 68px;
+}
+main > div {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 42px auto 142px;
+}
+main > div > img {
+  width: 76px;
+}

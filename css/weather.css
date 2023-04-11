@@ -1,0 +1,36 @@
+.transition {
+  cursor: pointer;
+  transition: all 0.24s;
+}
+header {
+  font-weight: 900;
+  font-size: 46px;
+  text-align: center;
+  color: #FFBF7E;
+  padding-top: 48px;
+}
+main .main-row {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 36px auto 84px;
+}
+main .main-row .main-row-desc {
+  cursor: pointer;
+  transition: all 0.24s;
+}
+main .main-row .main-row-desc > img {
+  width: 102px;
+}
+main .main-row .main-row-desc .main-row-desc-text {
+  font-weight: 900;
+  font-size: 20px;
+  text-align: center;
+  color: #FFBF7E;
+  opacity: 0;
+  margin-top: 8px;
+  cursor: pointer;
+  transition: all 0.24s;
+}
+main .main-row .main-row-desc:hover .main-row-desc-text {
+  opacity: 1;
+}
